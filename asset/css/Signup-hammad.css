@@ -1,0 +1,67 @@
+body{
+	background-repeat: no-repeat;
+	background-position: 56% 10%;
+	background-size: 1000px 700px;
+}
+
+header{
+	background-color: #ffb900; height: 60px;
+}
+
+header .logo{    padding: 9px 0;}
+
+
+footer {
+	background-color: #000;
+	padding-top: 10px;
+}
+
+.tag { display: inline-block; }
+.wrapper {
+	min-height: 562px;
+	padding-top: 50px;
+}
+
+.hp{color: #ffbb00}
+.HSignupBox{border-radius: 2px; margin: 0 auto 0 auto; padding-top: 10px;}
+
+.Hrec{
+	margin: 0 auto 0 auto; 
+	padding-top: 50px;
+}
+
+.hcir{
+	border-radius: 50px;
+	background-color:#e8e8e8;
+	width: 100px; 
+	height: 100px;
+	padding-top: 20px;
+	margin:0 auto 0 auto;
+	text-align:center;
+}
+
+.hbtn {
+	margin-left: 100px;
+	margin-top: 40px;
+	background-color: #ffb900;
+	border-radius:25px;	
+	width:110px;
+	height: 25px;
+	float: none;
+	padding: 0px;
+}
+
+.form-control{
+	width: 250px;
+	height:30px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.nav{
+	width: 150px;
+	margin-left: 93px;
+	margin-top: 25px;
+}
+
+

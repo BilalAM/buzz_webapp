@@ -1,0 +1,476 @@
+header {
+background-color: rgb(255,185,0);
+height:60px;
+}
+.wrapper{
+	min-height: 700px;
+}
+footer{
+	background-color: #000000;
+	height:60px;
+	padding-top: 15px;
+
+}
+
+footer .tag{
+	padding-top: 10px;
+	text-align: center;
+}
+.copyrightGold{
+	color: rgb(255,185,0);
+	float:left;
+
+	
+}
+.copyrightWhite{
+	color:#FFFFFF;
+	float: left;
+
+}
+.signupBox{
+	width: 430px;
+	height: 540px;
+	
+
+	border:solid;
+	border-width: 2px;
+		border-color: rgb(255,175,0);
+		margin: 75px auto 0 auto;
+		border-radius: 5px;
+		
+}
+.circle{
+	
+	border-radius: 50px;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	padding-top: 35px;
+	margin: 30px auto 0 auto;
+	background-color:rgb(235,235,235);
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.form-control{
+	width: 350px;
+	margin: 30px auto 0 auto;
+}
+.form-box{
+	margin:100px auto 0 auto;
+}
+.next{
+	background-color: rgb(255,175,0);
+	border-radius: 30px;
+	width: 125px;
+	height: 30px;
+	color:#FFFFFF;
+	font-size: 15px;
+	text-align: center;
+	padding-top:3px;
+	margin-top: 40px;
+}
+.icons{
+	float:right;
+	height: 30px;
+	margin-top: 10px;
+}
+.pic{
+	border-radius:15px;
+	height: 30px;
+	width: 30px;
+
+}
+
+.hexagon {
+  position: relative;
+  width: 150px; 
+  height: 86.60px;
+  margin: 43.30px auto;
+  background-image:url("ronaldo.jpg");
+  background-size: auto 173.2051px;
+  background-position: center;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 106.07px;
+  height: 106.07px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 21.97px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 150.0000px;
+  height: 86.60254037844388px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -53.0330px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -53.0330px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 150.0000px;
+  height: 86.6025px;
+  z-index: 2;
+  background: inherit;
+}
+
+
+
+
+.profile-name{
+	
+	margin:37 auto 0 auto;
+	text-align: center;
+	font-size: 26px;
+	margin-top:32px;
+	margin-right:16px;
+	font-family: sans-serif;
+
+
+}
+.column1{
+	
+	border-right: solid;
+
+	border-right-color: rgb(230,233,238);
+	border-right-width:2px;
+
+
+}
+
+
+
+.column3{
+	height:600px;
+	border-left: : solid;
+
+	border-left-color: rgb(230,233,238);
+	border-left-width:2px;
+
+}
+
+
+.hexagon-image {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: url("ronaldo.jpg") no-repeat;
+  background-size: cover;
+  margin: 10px auto;
+  height: 200px;
+  width: 170px;
+}
+.hexagon-edit
+{
+	  position: absolute;
+	  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+	  background: url("edit.png") no-repeat;
+	  background-size: cover;
+	  margin: 10px auto;
+	  height: 54px;
+	  width: 50px;
+	  z-index: 999;
+	  right: 37px;
+    top: 145px;
+}
+
+.progress{
+	height:60px;
+	background-color: #ffffff;
+	padding-right: 5px;
+	
+	margin-right: 10px;
+	margin-bottom: 0;
+text-align: left;
+width:200px;
+border:none;
+box-shadow: none;
+-webkit-box-shadow: none;
+}
+.row1{
+height:330px;
+border-bottom:solid;
+border-bottom-color: rgb(230,233,238);
+	border-bottom-width:2px;
+}
+
+.row2{
+	height:90px;
+	border-bottom:solid;
+border-bottom-color: rgb(230,233,238);
+	border-bottom-width:2px;
+}
+
+.row3{
+	height:250px;
+}
+.following{
+	color:rgb(185,185,185);
+	margin: 10px auto 0 auto;
+	text-align: center;
+	font-size: 14px;
+}
+.following-number{
+	color:#000000;
+	font-size: 36px;
+	text-align: center;
+	margin: 0px auto 0 auto;
+}
+.followers{
+	color:rgb(185,185,185);
+	margin: 10px auto 0 auto;
+	text-align: center;
+	font-size: 14px;
+}
+.followers-number{
+	color:#000000;
+	font-size: 36px;
+	text-align: center;
+	margin: 0 auto 0 auto;
+
+}
+
+
+
+.row-data
+{
+		margin-left: 20px;
+	font-size: 15px;
+	padding:5px 0 0 15px;
+	margin-bottom: 0px;
+}
+
+.table-row
+{
+	height: 25px;
+	margin-bottom: 20px;
+}
+
+
+
+
+.thinterest{ 
+	padding-right:  20px;
+	align-content: left;
+
+	text-align: center;
+}
+
+
+.p1{
+	color: #000; font-size: 7.77px;
+	font-weight: bold; 
+	font-family: "OpenSans-Semibold";
+	
+	margin-top: 5px;
+
+}
+
+.row5{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+}
+.row6{
+	margin-top: 30px;
+}
+
+}
+.h61{display: inline-block;
+	margin-left: 20px;
+	float: left;
+}
+th.personpic{
+	padding-bottom: 10px;
+	font-family: "OpenSans-light;"
+}
+
+.rightcolumn{
+		border-style: solid;
+	border-left: : solid;
+
+	border-left-color: rgb(230,233,238);
+	
+	border-width: 0 0 0 2px;
+}
+.margininterest{
+	margin-top: 20x;
+}
+
+
+------------------
+.row{
+	margin-left: 0px;
+	margin-right:0px;
+}
+.info-table{
+	margin:0 auto 0 auto;
+
+}
+
+
+
+
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+
+.value{
+	margin-bottom: 0px;
+}
+
+
+
+
+
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none; 
+}
+
+
+input[type=search] {
+	background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 55px;
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+input[type=search]:focus {
+	width: 130px;
+	background-color: rgb(285,185,0);
+	border-color: rgb(285,185,0);
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+input:-moz-placeholder {
+	color:background-color: rgb(285,185,0);}
+input::-webkit-input-placeholder {
+	color: background-color: rgb(285,185,0);
+}
+
+/* Demo 2 */
+#demo-2 input[type=search] {
+	width: 15px;
+	margin-top:6px;
+	padding-left: 10px;
+	color: solid;
+	cursor: pointer;
+}
+#demo-2 input[type=search]:hover {
+	background-color: rgb(285,185,0);
+}
+#demo-2 input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: rgb(285,185,0);
+	cursor: auto;
+}
+#demo-2 input:-moz-placeholder {
+	color: solid;
+}
+#demo-2 input::-webkit-input-placeholder {
+	color: solid;
+}

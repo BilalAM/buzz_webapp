@@ -1,0 +1,293 @@
+header {
+background-color: rgb(255,185,0);
+height:60px;
+}
+.wrapper{
+	min-height: 700px;
+}
+footer{
+	background-color: #000000;
+	height:50px;
+	padding-top: 15px;
+
+}
+
+footer .tag{
+	padding-top: 10px;
+	text-align: center;
+}
+.copyrightGold{
+	color: rgb(255,185,0);
+	float:left;
+
+	
+}
+.copyrightWhite{
+	color:#FFFFFF;
+	float: left;
+
+}
+.signupBox{
+	width: 430px;
+	height: 540px;
+	
+
+	border:solid;
+	border-width: 2px;
+		border-color: rgb(255,175,0);
+		margin: 75px auto 0 auto;
+		border-radius: 5px;
+		
+}
+.circle{
+	
+	border-radius: 50px;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	padding-top: 35px;
+	margin: 30px auto 0 auto;
+	background-color:rgb(235,235,235);
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.form-control{
+	width: 350px;
+	margin: 30px auto 0 auto;
+}
+.form-box{
+	margin:100px auto 0 auto;
+}
+.next{
+	background-color: rgb(255,175,0);
+	border-radius: 30px;
+	width: 125px;
+	height: 30px;
+	color:#FFFFFF;
+	font-size: 15px;
+	text-align: center;
+	padding-top:3px;
+	margin-top: 40px;
+}
+.icons{
+	float:right;
+	height: 30px;
+	margin-top: 10px;
+}
+.pic{
+	border-radius:15px;
+	height: 30px;
+	width: 30px;
+
+}
+
+.hexagon {
+  position: relative;
+  width: 150px; 
+  height: 86.60px;
+  margin: 43.30px auto;
+  background-image:url("ronaldo.jpg");
+  background-size: auto 173.2051px;
+  background-position: center;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 106.07px;
+  height: 106.07px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 21.97px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 150.0000px;
+  height: 86.60254037844388px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -53.0330px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -53.0330px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 150.0000px;
+  height: 86.6025px;
+  z-index: 2;
+  background: inherit;
+}
+
+
+
+
+.profile-name{
+	padding-bottom: 30px;
+	margin:37 auto 0 auto;
+	text-align: center;
+	font-size: 30px;
+	margin-top:60px;
+
+	font-family: sans-serif;
+}
+.column1{
+	height:600px;
+	border-right: solid;
+
+	border-right-color: rgb(230,233,238);
+	border-right-width:2px;
+
+
+}
+
+
+
+.column3{
+	height:600px;
+	border-left: : solid;
+
+	border-left-color: rgb(230,233,238);
+	border-left-width:2px;
+
+}
+.pic-name{
+	height:250px;
+	bottom-padding:40px;
+
+}
+
+
+
+.hexagon-image {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: url("ronaldo.jpg") no-repeat;
+  background-size: cover;
+  margin: 10px auto;
+  height: 200px;
+  width: 170px;      
+}
+.hexagon-edit
+{
+	  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: url("edit.png") no-repeat;
+  background-size: cover;
+  margin: 10px auto;
+  height: 54px;
+  width: 50px;
+  margin:-130px 0 0 190px;
+}
+
+.progress{
+	height:60px;
+	background-color: #ffffff;
+	padding-right: 5px;
+	border-top:transparent;
+	margin-right: 10px;
+	margin-bottom: 0;
+text-align: left;
+width:200px;
+}
+.row1{
+height:330px;
+border-bottom:solid;
+border-bottom-color: rgb(230,233,238);
+	border-bottom-width:2px;
+}
+
+.row2{
+	height:90px;
+	border-bottom:solid;
+border-bottom-color: rgb(230,233,238);
+	border-bottom-width:2px;
+}
+
+.row3{
+	height:150px;
+}
+.following{
+	color:rgb(185,185,185);
+	margin: 10px auto 0 auto;
+	text-align: center;
+	font-size: 17px;
+}
+.following-number{
+	color:#000000;
+	font-size: 40px;
+	text-align: center;
+	margin: 0px auto 0 auto;
+}
+.followers{
+	color:rgb(185,185,185);
+	margin: 10px auto 0 auto;
+	text-align: center;
+	font-size: 17px;
+}
+.followers-number{
+	color:#000000;
+	font-size: 40px;
+	text-align: center;
+	margin: 0 auto 0 auto;
+
+}
+
+
+
+.row-data
+{
+		margin-left: 20px;
+	font-size: 20px;
+	padding:20px 0 0 15px;
+}
+
+.table-row
+{
+	height: 25px;s
+}
+
+
+.postButton{
+background-color: rgb(255,185,0);
+
+}
+
+.bodyContent{
+	word-wrap: break-word;
+	font-family: "Calibri";
+	font-size: 16px;
+	text-align: center;
+}
+
+.profileName{
+	font-weight: bold;
+}
