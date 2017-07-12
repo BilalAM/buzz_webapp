@@ -373,7 +373,16 @@ background-color: rgb(255,185,0);
 }
 
 .profileName{
-	font-weight: bold;
+	font-weight: lighter;
+}
+
+.uploadicon{
+	border-style: none;
+	font-size: 17px;
+}
+
+.postBox{
+
 }
 
 
