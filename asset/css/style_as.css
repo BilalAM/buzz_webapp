@@ -2,9 +2,16 @@ header {
 background-color: rgb(255,185,0);
 height:60px;
 }
+
+
+
+
+
 .wrapper{
 	min-height: 700px;
+	margin-top: 15px;
 }
+
 footer{
 	background-color: #000000;
 	height:60px;
@@ -16,6 +23,10 @@ footer .tag{
 	padding-top: 10px;
 	text-align: center;
 }
+
+
+
+/* common footer content */
 .copyrightGold{
 	color: rgb(255,185,0);
 	float:left;
@@ -27,54 +38,17 @@ footer .tag{
 	float: left;
 
 }
-.signupBox{
-	width: 430px;
-	height: 540px;
-	
 
-	border:solid;
-	border-width: 2px;
-		border-color: rgb(255,175,0);
-		margin: 75px auto 0 auto;
-		border-radius: 5px;
-		
-}
-.circle{
-	
-	border-radius: 50px;
-	height: 100px;
-	width: 100px;
-	text-align: center;
-	padding-top: 35px;
-	margin: 30px auto 0 auto;
-	background-color:rgb(235,235,235);
-	font-size: 20px;
-	font-weight: bold;
-
-}
-.form-control{
-	width: 350px;
-	margin: 30px auto 0 auto;
-}
-.form-box{
-	margin:100px auto 0 auto;
-}
-.next{
-	background-color: rgb(255,175,0);
-	border-radius: 30px;
-	width: 125px;
-	height: 30px;
-	color:#FFFFFF;
-	font-size: 15px;
-	text-align: center;
-	padding-top:3px;
-	margin-top: 40px;
-}
+/*   */ 
 .icons{
 	float:right;
 	height: 30px;
 	margin-top: 10px;
 }
+
+
+
+
 .pic{
 	border-radius:15px;
 	height: 30px;
@@ -82,72 +56,7 @@ footer .tag{
 
 }
 
-.hexagon {
-  position: relative;
-  width: 150px; 
-  height: 86.60px;
-  margin: 43.30px auto;
-  background-image:url("ronaldo.jpg");
-  background-size: auto 173.2051px;
-  background-position: center;
-}
 
-.hexTop,
-.hexBottom {
-  position: absolute;
-  z-index: 1;
-  width: 106.07px;
-  height: 106.07px;
-  overflow: hidden;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
-  transform: scaleY(0.5774) rotate(-45deg);
-  background: inherit;
-  left: 21.97px;
-}
-
-/*counter transform the bg image on the caps*/
-.hexTop:after,
-.hexBottom:after {
-  content: "";
-  position: absolute;
-  width: 150.0000px;
-  height: 86.60254037844388px;
-  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
-  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
-  transform:          rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
-  -webkit-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
-  transform-origin: 0 0;
-  background: inherit;
-}
-
-.hexTop {
-  top: -53.0330px;
-}
-
-.hexTop:after {
-  background-position: center top;
-}
-
-.hexBottom {
-  bottom: -53.0330px;
-}
-
-.hexBottom:after {
-  background-position: center bottom;
-}
-
-.hexagon:after {
-  content: "";
-  position: absolute;
-  top: 0.0000px;
-  left: 0;
-  width: 150.0000px;
-  height: 86.6025px;
-  z-index: 2;
-  background: inherit;
-}
 
 
 
@@ -163,6 +72,8 @@ footer .tag{
 
 
 }
+
+
 .column1{
 	
 	border-right: solid;
@@ -207,6 +118,9 @@ footer .tag{
     top: 145px;
 }
 
+
+
+
 .progress{
 	height:60px;
 	background-color: #ffffff;
@@ -220,23 +134,9 @@ border:none;
 box-shadow: none;
 -webkit-box-shadow: none;
 }
-.row1{
-height:330px;
-border-bottom:solid;
-border-bottom-color: rgb(230,233,238);
-	border-bottom-width:2px;
-}
 
-.row2{
-	height:90px;
-	border-bottom:solid;
-border-bottom-color: rgb(230,233,238);
-	border-bottom-width:2px;
-}
 
-.row3{
-	height:250px;
-}
+
 .following{
 	color:rgb(185,185,185);
 	margin: 10px auto 0 auto;
@@ -333,10 +233,7 @@ th.personpic{
 
 
 ------------------
-.row{
-	margin-left: 0px;
-	margin-right:0px;
-}
+
 .info-table{
 	margin:0 auto 0 auto;
 
@@ -344,7 +241,7 @@ th.personpic{
 
 
 
-
+/*
 .search-form .form-group {
   float: right !important;
   transition: all 0.35s, border-radius 0s;
@@ -366,11 +263,11 @@ th.personpic{
   display: none;
 }
 .search-form .form-group input.form-control:-moz-placeholder {
-  /* Firefox 18- */
+  /* Firefox 18- 
   display: none;
 }
 .search-form .form-group input.form-control::-moz-placeholder {
-  /* Firefox 19+ */
+  /* Firefox 19+ 
   display: none;
 }
 .search-form .form-group input.form-control:-ms-input-placeholder {
@@ -450,7 +347,7 @@ input::-webkit-input-placeholder {
 	color: background-color: rgb(285,185,0);
 }
 
-/* Demo 2 */
+/* Demo 2 
 #demo-2 input[type=search] {
 	width: 15px;
 	margin-top:6px;
@@ -474,3 +371,5 @@ input::-webkit-input-placeholder {
 #demo-2 input::-webkit-input-placeholder {
 	color: solid;
 }
+
+/*
