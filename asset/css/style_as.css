@@ -180,7 +180,7 @@ footer .tag{
 }
 
 
-.p1{
+.ph1{
 	color: #000; font-size: 7.77px;
 	font-weight: bold; 
 	font-family: "OpenSans-Semibold";
@@ -194,19 +194,13 @@ footer .tag{
 	margin-bottom: 20px;
 }
 
-}
-.row6{
-	margin-top: 30px;
-}
 
-}
-.h61{display: inline-block;
-	margin-left: 20px;
-	float: left;
-}
-th.personpic{
-	padding-bottom: 10px;
-	font-family: "OpenSans-light;"
+
+
+
+
+
+font-family: "OpenSans-light;"
 }
 
 .rightcolumn{
@@ -614,16 +608,10 @@ h6{
 #demo-2 input::-webkit-input-placeholder {
 	color: transparent;
 
-
-
-
-/*hammad css */
-
-.HSisdsdsdgnbox{
-	/* testtingg */
 }
 
 
+/*hammad css */
 .HSignupBox{
 	border-radius: 2px;
 	margin: 0 auto 0 auto;
@@ -744,7 +732,10 @@ margin-top: 20px;
 	height: 20px;
 	width: 80px;
 }
-
+th.personpic{
+	display: inline-block;
+	margin-bottom: 10px;
+}
 
 
 
