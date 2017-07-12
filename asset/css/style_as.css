@@ -53,10 +53,10 @@ footer .tag{
 
 .profile-name{
 	
-	margin:37 auto 0 auto;
+
 	text-align: center;
 	font-size: 26px;
-	margin-top:32px;
+	
 	margin-right:16px;
 	font-family: sans-serif;
 
@@ -64,15 +64,7 @@ footer .tag{
 }
 
 
-.column1{
-	
-	border-right: solid;
 
-	border-right-color: rgb(230,233,238);
-	border-right-width:2px;
-
-
-}
 
 
 
@@ -105,14 +97,14 @@ footer .tag{
 	width: 50px;
 	z-index: 999;
 	right: 37px;
-	top: 145px;
+	top: 115px;
 }
 
 
 
 
 .progress{
-	height:60px;
+	height:40px;
 	background-color: #ffffff;
 	padding-right: 5px;
 	
@@ -159,7 +151,7 @@ footer .tag{
 {
 	margin-left: 20px;
 	font-size: 15px;
-	padding:5px 0 0 15px;
+	padding:12px 0 0 15px;
 	margin-bottom: 0px;
 }
 
@@ -186,7 +178,7 @@ footer .tag{
 	font-family: "OpenSans-Semibold";
 	
 	margin-top: 5px;
-
+	margin-left: 18px;
 }
 
 .row5{
@@ -204,12 +196,11 @@ font-family: "OpenSans-light;"
 }
 
 .rightcolumn{
-	border-style: solid;
-	border-left: : solid;
+	border-left: solid;
 
 	border-left-color: rgb(230,233,238);
 	
-	border-width: 0 0 0 2px;
+	border-width:2px;
 }
 .margininterest{
 	margin-top: 20x;
@@ -219,8 +210,12 @@ font-family: "OpenSans-light;"
 ------------------
 
 .info-table{
-	margin:0 auto 0 auto;
+	margin:15px auto 0 auto;
 
+}
+
+.value{
+	color:rgb(93,93,93);
 }
 
 
